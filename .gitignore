@@ -21,7 +21,7 @@ Thumbs.db
 .sass-cache
 
 # NPM packages folder.
-node_modules/
+# node_modules/
 
 # Brunch folder for temporary files.
 tmp/
