@@ -18,6 +18,7 @@
 .tmproj
 nbproject
 Thumbs.db
+.sass-cache
 
 # NPM packages folder.
 node_modules/
