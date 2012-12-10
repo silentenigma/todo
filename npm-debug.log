@@ -1,0 +1,110 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.1.66
+3 info using node@v0.8.15
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose read json C:\Users\Robert\Documents\www\todo\package.json
+6 verbose readDependencies using package.json deps
+7 verbose install where, deps [ 'C:\\Users\\Robert\\Documents\\www\\todo',
+7 verbose install   [ 'javascript-brunch',
+7 verbose install     'coffee-script-brunch',
+7 verbose install     'css-brunch',
+7 verbose install     'compass-brunch',
+7 verbose install     'handlebars-brunch',
+7 verbose install     'uglify-js-brunch',
+7 verbose install     'clean-css-brunch',
+7 verbose install     'chai',
+7 verbose install     'sinon',
+7 verbose install     'sinon-chai' ] ]
+8 verbose from cache C:\Users\Robert\Documents\www\todo\package.json
+9 info preinstall package-name@0.0.1
+10 verbose read json C:\Users\Robert\Documents\www\todo\node_modules\chai\package.json
+11 verbose read json C:\Users\Robert\Documents\www\todo\node_modules\clean-css-brunch\package.json
+12 verbose read json C:\Users\Robert\Documents\www\todo\node_modules\coffee-script-brunch\package.json
+13 verbose read json C:\Users\Robert\Documents\www\todo\node_modules\compass-brunch\package.json
+14 verbose read json C:\Users\Robert\Documents\www\todo\node_modules\css-brunch\package.json
+15 verbose read json C:\Users\Robert\Documents\www\todo\node_modules\handlebars-brunch\package.json
+16 verbose read json C:\Users\Robert\Documents\www\todo\node_modules\javascript-brunch\package.json
+17 verbose read json C:\Users\Robert\Documents\www\todo\node_modules\sass-brunch\package.json
+18 verbose read json C:\Users\Robert\Documents\www\todo\node_modules\sinon\package.json
+19 verbose read json C:\Users\Robert\Documents\www\todo\node_modules\sinon-chai\package.json
+20 verbose read json C:\Users\Robert\Documents\www\todo\node_modules\stylus-brunch\package.json
+21 verbose read json C:\Users\Robert\Documents\www\todo\node_modules\uglify-js-brunch\package.json
+22 verbose from cache C:\Users\Robert\Documents\www\todo\package.json
+23 verbose readDependencies using package.json deps
+24 verbose from cache C:\Users\Robert\Documents\www\todo\node_modules\chai\package.json
+25 verbose from cache C:\Users\Robert\Documents\www\todo\node_modules\clean-css-brunch\package.json
+26 verbose from cache C:\Users\Robert\Documents\www\todo\node_modules\coffee-script-brunch\package.json
+27 verbose from cache C:\Users\Robert\Documents\www\todo\node_modules\compass-brunch\package.json
+28 verbose from cache C:\Users\Robert\Documents\www\todo\node_modules\css-brunch\package.json
+29 verbose from cache C:\Users\Robert\Documents\www\todo\node_modules\handlebars-brunch\package.json
+30 verbose from cache C:\Users\Robert\Documents\www\todo\node_modules\javascript-brunch\package.json
+31 verbose from cache C:\Users\Robert\Documents\www\todo\node_modules\sass-brunch\package.json
+32 verbose from cache C:\Users\Robert\Documents\www\todo\node_modules\sinon\package.json
+33 verbose from cache C:\Users\Robert\Documents\www\todo\node_modules\sinon-chai\package.json
+34 verbose from cache C:\Users\Robert\Documents\www\todo\node_modules\stylus-brunch\package.json
+35 verbose from cache C:\Users\Robert\Documents\www\todo\node_modules\uglify-js-brunch\package.json
+36 verbose already installed skipping javascript-brunch@>= 1.0 < 1.5 C:\Users\Robert\Documents\www\todo
+37 verbose already installed skipping coffee-script-brunch@>= 1.0 < 1.5 C:\Users\Robert\Documents\www\todo
+38 verbose already installed skipping css-brunch@>= 1.0 < 1.5 C:\Users\Robert\Documents\www\todo
+39 verbose cache add [ 'compass-brunch@>=1.0 < 1.5', null ]
+40 silly cache add name=undefined spec="compass-brunch@>=1.0 < 1.5" args=["compass-brunch@>=1.0 < 1.5",null]
+41 verbose parsed url { pathname: 'compass-brunch@%3E=1.0%20%3C%201.5',
+41 verbose parsed url   path: 'compass-brunch@%3E=1.0%20%3C%201.5',
+41 verbose parsed url   href: 'compass-brunch@%3E=1.0%20%3C%201.5' }
+42 silly cache add name="compass-brunch" spec=">=1.0 < 1.5" args=["compass-brunch",">=1.0 < 1.5"]
+43 verbose parsed url { pathname: '%3E=1.0%20%3C%201.5',
+43 verbose parsed url   path: '%3E=1.0%20%3C%201.5',
+43 verbose parsed url   href: '%3E=1.0%20%3C%201.5' }
+44 verbose addNamed [ 'compass-brunch', '>=1.0 < 1.5' ]
+45 verbose addNamed [ null, '>=1.0.0- <1.5.0-' ]
+46 verbose already installed skipping handlebars-brunch@>= 1.0 < 1.5 C:\Users\Robert\Documents\www\todo
+47 verbose already installed skipping uglify-js-brunch@>= 1.0 < 1.5 C:\Users\Robert\Documents\www\todo
+48 verbose already installed skipping clean-css-brunch@>= 1.0 < 1.5 C:\Users\Robert\Documents\www\todo
+49 verbose already installed skipping chai@1.2.0 C:\Users\Robert\Documents\www\todo
+50 verbose already installed skipping sinon@1.4.2 C:\Users\Robert\Documents\www\todo
+51 verbose already installed skipping sinon-chai@2.1.2 C:\Users\Robert\Documents\www\todo
+52 silly lockFile b0fb5966-compass-brunch-1-0-1-5 compass-brunch@>=1.0 < 1.5
+53 verbose lock compass-brunch@>=1.0 < 1.5 C:\Users\Robert\AppData\Roaming\npm-cache\b0fb5966-compass-brunch-1-0-1-5.lock
+54 silly addNameRange { name: 'compass-brunch',
+54 silly addNameRange   range: '>=1.0.0- <1.5.0-',
+54 silly addNameRange   hasData: false }
+55 verbose url raw compass-brunch
+56 verbose url resolving [ 'https://registry.npmjs.org/', './compass-brunch' ]
+57 verbose url resolved https://registry.npmjs.org/compass-brunch
+58 info trying registry request attempt 1 at 02:23:48
+59 verbose etag "BGSLRQFJTU27FWF6SZ7U8R90"
+60 http GET https://registry.npmjs.org/compass-brunch
+61 http 304 https://registry.npmjs.org/compass-brunch
+62 silly registry.get cb [ 304,
+62 silly registry.get   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+62 silly registry.get     etag: '"BGSLRQFJTU27FWF6SZ7U8R90"',
+62 silly registry.get     date: 'Mon, 10 Dec 2012 01:22:59 GMT',
+62 silly registry.get     'content-length': '0' } ]
+63 verbose etag compass-brunch from cache
+64 silly addNameRange number 2 { name: 'compass-brunch',
+64 silly addNameRange   range: '>=1.0.0- <1.5.0-',
+64 silly addNameRange   hasData: true }
+65 silly addNameRange versions [ 'compass-brunch', [ '0.0.1', '0.0.2' ] ]
+66 silly lockFile b0fb5966-compass-brunch-1-0-1-5 compass-brunch@>=1.0 < 1.5
+67 error Error: No compatible version found: compass-brunch@'>=1.0.0- <1.5.0-'
+67 error Valid install targets:
+67 error ["0.0.1","0.0.2"]
+67 error     at installTargetsError (C:\Program Files\nodejs\node_modules\npm\lib\cache.js:563:10)
+67 error     at next (C:\Program Files\nodejs\node_modules\npm\lib\cache.js:542:17)
+67 error     at C:\Program Files\nodejs\node_modules\npm\lib\cache.js:522:5
+67 error     at saved (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\get.js:138:7)
+67 error     at C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\graceful-fs.js:218:7
+67 error     at Object.oncomplete (fs.js:297:15)
+68 error If you need help, you may report this log at:
+68 error     <http://github.com/isaacs/npm/issues>
+68 error or email it to:
+68 error     <npm-@googlegroups.com>
+69 error System Windows_NT 6.1.7601
+70 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+71 error cwd C:\Users\Robert\Documents\www\todo
+72 error node -v v0.8.15
+73 error npm -v 1.1.66
+74 verbose exit [ 1, true ]
