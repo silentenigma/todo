@@ -8,9 +8,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <title>Brunch example application</title>
   <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" href="/stylesheets/master.css">
-  <script src="/javascripts/vendor.js"></script>
-  <script src="/javascripts/app.js"></script>
+
+  {{ HTML::style('stylesheets/master.css') }}
+
+  {{ HTML::script('javascripts/vendor.js') }}
+  {{ HTML::script('javascripts/app.js') }}
+
   <script>require('initialize');</script>
 </head>
 <body>

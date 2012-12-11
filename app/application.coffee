@@ -4,6 +4,7 @@ routes = require 'routes'
 SessionController = require 'controllers/session_controller'
 HeaderController = require 'controllers/header_controller'
 Layout = require 'views/layout'
+User = require 'models/user'
 
 # The application object
 module.exports = class Application extends Chaplin.Application
@@ -56,7 +57,7 @@ module.exports = class Application extends Chaplin.Application
   # -------------------------------------
   initMediator: ->
     # Create a user property
-    mediator.user = null
+    mediator.user = new User
     # Add additional application-specific properties and methods
     # Seal the mediator
     mediator.seal()
