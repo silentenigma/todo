@@ -28,3 +28,7 @@ tmp/
 
 # Brunch output folder.
 public/
+
+#Sublime project
+*.sublime-project
+*.sublime-workspace
