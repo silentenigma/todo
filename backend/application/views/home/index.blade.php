@@ -6,8 +6,8 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Brunch example application</title>
-  <meta name="viewport" content="width=device-width">
+  <title>ToDo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   {{ HTML::style('stylesheets/master.css') }}
 
@@ -19,8 +19,10 @@
 <body>
   <header class="header-container" id="header-container"></header>
 
-  <div class="container outer-container">
-    <div class="page-container" id="page-container">
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <div class="page-container" id="page-container">
+      </div>
     </div>
   </div>
 </body>

@@ -5,12 +5,13 @@ SessionController = require 'controllers/session_controller'
 HeaderController = require 'controllers/header_controller'
 Layout = require 'views/layout'
 User = require 'models/user'
+Session = require 'models/session'
 
 # The application object
 module.exports = class Application extends Chaplin.Application
   # Set your application name here so the document title is set to
   # “Controller title – Site title” (see Layout#adjustTitle)
-  title: 'Brunch example application'
+  title: 'ToDo'
 
   initialize: ->
     super
@@ -24,7 +25,7 @@ module.exports = class Application extends Chaplin.Application
     @initControllers()
 
     # Register all routes and start routing
-    @initRouter routes
+    @initRouter routes, pushState: false
     # You might pass Router/History options as the second parameter.
     # Chaplin enables pushState per default and Backbone uses / as
     # the root per default. You might change that in the options
@@ -58,6 +59,7 @@ module.exports = class Application extends Chaplin.Application
   initMediator: ->
     # Create a user property
     mediator.user = new User
+    mediator.session = new Session
     # Add additional application-specific properties and methods
     # Seal the mediator
     mediator.seal()

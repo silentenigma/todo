@@ -32,6 +32,19 @@
 |
 */
 
+// api/user Resource
+Route::get('api/users/(:any)', array('as' => 'api/user', 'uses' => 'api/users@show'));
+Route::get('api/users/new', array('as' => 'new_api/user', 'uses' => 'api/users@new'));
+Route::get('api/users/(:any)/edit', array('as' => 'edit_api/user', 'uses' => 'api/users@edit'));
+Route::post('api/users', 'api/users@create');
+Route::put('api/users/(:any)', 'api/users@update');
+Route::delete('api/users/(:any)', 'api/users@destroy');
+
+
+Route::get('api/auth', array('as' => 'api/auth', 'uses' => 'api.auth@status'));
+Route::post('api/auth', 'api.auth@login');
+Route::delete('api/users/(:any)', 'api.auth@logout');
+
 Route::get('/', function()
 {
 	return View::make('home.index');

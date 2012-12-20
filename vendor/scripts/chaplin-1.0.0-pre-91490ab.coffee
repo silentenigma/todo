@@ -670,6 +670,8 @@ require.define 'chaplin/views/layout': (exports, require, module) ->
 
       # Hide the current view
       view = controller.view
+      console.log controller
+      console.log view
       if view
         view.$el.css 'display', 'none'
 

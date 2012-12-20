@@ -69,10 +69,11 @@ return array(
 
 		'mysql' => array(
 			'driver'   => 'mysql',
+			'unix_socket'   => '/Applications/MAMP/tmp/mysql/mysql.sock',
 			'host'     => 'localhost',
-			'database' => 'database',
+			'database' => 'todo_db',
 			'username' => 'root',
-			'password' => '',
+			'password' => 'root',
 			'charset'  => 'utf8',
 			'prefix'   => '',
 		),
